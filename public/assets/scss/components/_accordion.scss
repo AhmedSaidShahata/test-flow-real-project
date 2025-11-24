@@ -1,0 +1,15 @@
+.v-expansion-panel {
+    border-radius: 12px !important;
+}
+.v-expansion-panel--active > .v-expansion-panel-title {
+    border-bottom-left-radius: 12px !important;
+    border-bottom-right-radius: 12px !important;
+}
+.v-expansion-panel-text__wrapper {
+    padding: 0px 16px 16px !important;
+    flex: 1 1 auto;
+    max-width: 100%;
+}
+.v-expansion-panel-title {
+    padding: 10px !important;
+}

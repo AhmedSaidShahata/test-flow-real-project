@@ -1,0 +1,28 @@
+@use '../mixins' as *;
+
+.custom-arrow-select {
+  .v-input__control {
+    .v-field {
+      height: auto !important;
+    }
+  }
+  .v-field__field {
+    .v-field__input {
+      padding-top: 24px !important;
+      padding-bottom: 4px !important;
+    }
+  }
+  .v-select__menu-icon {
+    display: none !important;
+  }
+  .v-field__input {
+    padding: 0px !important;
+    padding-right: 8px !important;
+    // margin-top: 9px !important;
+    // margin-bottom: 9px !important;
+    @include langLtr {
+      padding-left: 8px !important;
+    }
+  }
+}
+

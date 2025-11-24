@@ -1,0 +1,17 @@
+@use '../mixins' as *;
+
+.locale-selector-input {
+  .v-select__menu-icon {
+    display: none !important;
+  }
+  .v-field__input {
+    padding: 0px !important;
+    padding-right: 8px !important;
+
+    @include langLtr{
+    padding-left: 8px !important;
+
+    }
+  }
+
+}

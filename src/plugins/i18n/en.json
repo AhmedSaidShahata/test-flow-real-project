@@ -1,0 +1,745 @@
+{
+  "code": "en",
+  "messages": {
+    "_default": "This is is not valid",
+    "alpha": "This is field may only contain alphabetic characters",
+    "alpha_num": "This is field may only contain alpha-numeric characters",
+    "alpha_dash": "This is field may contain alpha-numeric characters as well as dashes and underscores",
+    "alpha_spaces": "This is field may only contain alphabetic characters as well as spaces",
+    "between": "This is field must be between 0:{min} and 1:{max}",
+    "confirmed": "This is field confirmation does not match",
+    "digits": "This is field must be numeric and exactly contain 0:{length} digits",
+    "dimensions": "This is field must be 0:{width} pixels by 1:{height} pixels",
+    "email": "This is field must be a valid email",
+    "not_one_of": "This is field is not a valid value",
+    "ext": "This is field is not a valid file",
+    "image": "This is field must be an image",
+    "integer": "This is field must be an integer",
+    "length": "This is field must be {args}",
+    "max_value": "This is field must be 0:{max} or less",
+    "max": "This is field may not be greater than 0:{length} characters",
+    "mimes": "This is field must be: {args}",
+    "min_value": "This is field must be 0:{min} or more",
+    "min": "This is field must be at least 0:{length} characters",
+    "numeric": "This is field may only contain numeric characters",
+    "one_of": "This is field is not a valid value",
+    "regex": "This is field format is invalid",
+    "required_if": "This field is required",
+    "required": "This field is required",
+    "size": "This is field size must be less than 0:{size}KB",
+    "url": "This field must be a valid URL",
+    "numeric_max": "Field must contain at most {length} numbers",
+    "numeric_min": "Field must contain at least {length} numbers"
+  },
+  "languages": {
+    "en": "Input language (English)",
+    "ar": "Input language (Arabic)"
+  },
+  "example": {
+    "go_home": "Go to Home",
+    "not_found": "Page Not Found",
+    "logout": "Logout",
+    "confirmLogout": "Are you sure you want to logout ?",
+    "new": "Add New",
+    "welcome_back": "Welcome Back",
+    "login_description": "Please enter your details to log in",
+    "email": "Email",
+    "password": "Password",
+    "signin": "Sign In",
+    "home": "Home",
+    "loading": "Loading...",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "sure_delete": "Are you sure you want to delete this item?",
+    "ok": "Yes",
+    "cancel": "Cancel",
+    "no-data": "No Data Available",
+    "confirm": "Confirm",
+    "delete_tourism_package": "Delete tourism package",
+    "delete_tourism_package_description": "Deleted tourism packages are irretrievable"
+  },
+  "files": "Files",
+  "max_at_a_time": "maximum at a time",
+  "visible": "Visible",
+  "contacts": "Messages",
+  "contact-topics": "Topics",
+  "contact-messages": "Messages",
+  "refund-forms": "Refund Messages",
+  "contact-msgs": "Contact Messages",
+  "subscribers": "Subscription Messages",
+  "all-settings": "All Settings",
+  "settings": "System Settings",
+  "reviews": "Customer Reviews",
+  "users-and-permissions": "Users And Permissions",
+  "users": "Users",
+  "currencies": "Currencies",
+  "countries": "Countries",
+  "keywords": "Keywords",
+  "slug": "Slug",
+  "pages-content": "Pages Content",
+  "blog": "Blog",
+  "blogs": "Blogs",
+  "blogs-content": "Blogs Content",
+  "blog-content": "Blog Content",
+  "services": "Services",
+  "invisible": "Invisible",
+  "services-sections": "Services Sections",
+  "packages": "Packages",
+  "blog-categories": "Blog Categories",
+  "tags": "Tags",
+  "service-providers": "Service Providers",
+  "roles": "Roles",
+  "name": "Name",
+  "family_name": "Family Name",
+  "key": "Key",
+  "value": "Value",
+  "is_visible": "Visible",
+  "actions": "Actions",
+  "not-found": "Page Not Found",
+  "dashboard": "Dashboard",
+  "enter_email": "Enter your email",
+  "enter_password": "Enter your password",
+  "create": "Create",
+  "the_page": "Page",
+  "of": "Of",
+  "page": "Page",
+  "no": "No",
+  "yes": "Yes",
+  "visible_filter": "Visible",
+  "invisible_filter": "Invisible",
+  "select-language-hint": "Select your language",
+  "filter": "Filter",
+  "filter_by": "Filter by",
+  "search": "Search",
+  "clear": "Clear",
+  "available": "Activated",
+  "not-activate": "Deactivate",
+  "activate": "Activate",
+
+  "upload-image": "Upload Image",
+  "image-hint": "Image size must be less than 1024 kB",
+
+  "user-img-hint": "Must be less than 512 KB",
+  "img-hint-1024": "Must be less than 1024 KB",
+  "id": "#",
+  "blog_category": "Blog Category",
+  "status": "Status",
+
+  "tags_crud": {
+    "record": {
+      "title": "Marketing phrases",
+      "description": "You can view all marketing phrases"
+    },
+    "heading_create": {
+      "title": "Add a marketing phrase",
+      "description": "You can view all marketing phrases"
+    },
+    "intro_create": {
+      "title": "Marketing phrase data",
+      "description": "You can enter marketing phrase data and control its activation"
+    },
+    "heading_edit": {
+      "title": "Edit marketing phrase data",
+      "description": "You can view and edit all marketing phrase data"
+    },
+    "intro_edit": {
+      "title": "Edit marketing phrase data",
+      "description": "You can enter marketing phrase data and control its activation"
+    },
+    "delete": {
+      "title": "Delete marketing phrase data",
+      "description": "You cannot retrieve marketing phrase data when Delete"
+    },
+    "input": {
+      "name_label": "Name",
+      "name_hint": "Enter the name of the marketing phrase"
+    }
+  },
+  "sort": "Sort",
+  "sorting_heading": "Sorting of Blog categories",
+  "blog-categories_crud": {
+    "record": {
+      "title": "Blog categories",
+      "description": "You can view all blog categories"
+    },
+    "heading_create": {
+      "title": "Add Blog category",
+      "description": "You can add a blog category"
+    },
+    "intro_create": {
+      "title": "Blog category Data",
+      "description": "You can enter the blog category name data and control its activation"
+    },
+    "heading_edit": {
+      "title": "Edit Blog category",
+      "description": "You can view and edit all blog category name data"
+    },
+    "intro_edit": {
+      "title": "Edit Blog category",
+      "description": "You can edit the blog category name data and control its activation"
+    },
+    "delete": {
+      "title": "Delete category",
+      "description": "Category data cannot be recovered after deletion"
+    },
+    "input": {
+      "name_label": "Name",
+      "name_hint": "Enter the name of the blog category",
+      "slug_label": "Slug",
+      "slug_hint": "Enter the slug"
+    }
+  },
+  "topics_crud": {
+    "record": {
+      "title": "Topics",
+      "description": "You can view and create all elements related to topics"
+    },
+    "heading_create": {
+      "title": "Add Topic",
+      "description": "You can add new topic information"
+    },
+    "heading_edit": {
+      "title": "Edit Topic",
+      "description": "You can view and edit topic information"
+    },
+    "intro_create": {
+      "title": "Topic Information",
+      "description": "You can enter topic information and control its activation"
+    },
+    "intro_edit": {
+      "title": "Edit Topic Information",
+      "description": "You can edit topic information and control its activation"
+    },
+    "delete": {
+      "title": "Delete Topic",
+      "description": "You cannot retrieve topic data after deletion"
+    },
+    "input": {
+      "name_label": "Name",
+      "name_hint": "Enter a topic name"
+    }
+  },
+  "blogs_crud": {
+    "record": {
+      "title": "Blog Content",
+      "blog_category": "Blog Category",
+      "status": "Status",
+      "description": "You can view all blogs and their content"
+    },
+    "heading_create": {
+      "title": "Add Blog Content",
+
+      "description": "You can add content to the blog"
+    },
+    "heading_edit": {
+      "title": "Edit Blog",
+      "description": "You can view and edit the blog data"
+    },
+    "intro_create": {
+      "image": {
+        "title": "Blog Image",
+        "description": "You can upload the blog’s avatar image"
+      },
+      "meta_data": {
+        "title": "Search Engine Data",
+        "description": "You can enter the blog's data for search engines"
+      },
+      "blogs_data": {
+        "title": "Blog Data",
+        "description": "You can enter the basic blog data for tracking"
+      }
+    },
+    "intro_edit": {
+      "image": {
+        "title": "Blog Image",
+        "description": "You can upload the blog’s avatar image"
+      },
+      "meta_data": {
+        "title": "Meta Data",
+        "description": "You can enter the blog's data for search engines"
+      },
+      "blogs_data": {
+        "title": "Blog Data",
+        "description": "You can enter the basic blog data for tracking"
+      }
+    },
+    "delete": {
+      "title": "Delete Blog Content",
+      "description": "You cannot recover the blog data after deletion"
+    },
+    "input": {
+      "name_label": "Name",
+      "name_hint": "Please enter the name of your blog",
+
+      "slug": "Slug",
+      "slug_hint": "Please enter the slug (URL identifier)",
+
+      "meta_title": "Meta Title",
+      "meta_title_hint": "Enter the meta title for search engines",
+
+      "meta_description": "Meta Description",
+      "meta_description_hint": "Enter the meta description for search engines",
+
+      "blog_category": "Blog Category",
+      "blog_category_hint": "Please enter the blog category",
+
+      "blog_tags": "Tags",
+      "blog_tags_hint": "Please enter the tags",
+
+      "description": "Item Description",
+      "description_hint": "Please enter the value of this item"
+    }
+  },
+  "profile-picture": "Profile Picture",
+  "profile-picture-description": "You can upload or change your user avatar here",
+  "main-info-title": "Basic Information",
+  "main-info-description": "You can enter your basic information to continue and view all your data",
+  "password": "Password",
+  "change-password-description": "You can change your password by filling in the following information",
+  "old-password": "Old Password",
+  "old-password-hint": "Enter your old password",
+  "new-password": "New Password",
+  "new-password-hint": "Enter your new password in the following format {'35RF@#fah35a789'}",
+  "new-password-confirmation": "Confirm New Password",
+  "new-password-confirmation-hint": "Enter your new password in the following format {'35RF@#fah35a789'}",
+  "email": "Email",
+  "email-hint": "Enter your email address",
+  "firstname": "Name",
+  "profile_firstname": "First Name",
+  "firstname-hint": "Enter your first name",
+  "profile_lastname": "Last Name",
+  "lastname": "Family Name",
+  "lastname-hint": "Enter your Last name",
+  "phone-number": "Phone Number",
+  "phone-number-hint": "Enter your phone number",
+  "save": "Save",
+  "media_crud": {
+    "title": "Edit blog content media",
+    "description": "you can edit the blog images",
+    "intro_title": "Edit blog media",
+    "seo": "Search engine",
+    "seo_title": "Media title",
+    "seo_title_hint": "Enter media title in SEO",
+    "seo_description": "alternative text",
+    "seo_description_hint": "Enter alternative text in SEO",
+    "max": "Should be less than 1024 kb",
+    "form_title": "Add search engine data"
+  },
+  "keywords_crud": {
+    "record": {
+      "title": "Keywords",
+      "description": "You can view and edit all keywords"
+    },
+    "heading_create": {
+      "title": "Add a keyword",
+      "description": "You can add keyword data"
+    },
+    "intro_create": {
+      "title": "Keyword data",
+      "description": "You can enter keyword name data and control its activation"
+    },
+    "heading_edit": {
+      "title": "Edit keyword",
+      "description": "You can add keyword data"
+    },
+    "intro_edit": {
+      "title": "Edit keyword data",
+      "description": "You can edit keyword name data and control its activation"
+    },
+    "delete": {
+      "title": "Delete a keyword",
+      "description": "You cannot retrieve a deleted keyword"
+    },
+    "input": {
+      "name_label": "name",
+      "name_hint": "Enter the name of the keyword"
+    }
+  },
+
+  "roles-desc": "You can view all roles and create new roles",
+  "description": "Description",
+  "no-desc": "No description",
+  "role-del": "Delete Role",
+  "role-del-desc": "You cannot recover role data once deleted",
+  "all_permissions": "All Permissions",
+  "basic-permissions": "Basic Permissions",
+  "field": {
+    "role-name": "Role Name",
+    "role-desc": "Description"
+  },
+  "hint": {
+    "role": "Enter role name",
+    "role-desc": "Enter description"
+  },
+  "switch": {
+    "cancel-active": "Deactivate"
+  },
+  "heading": {
+    "roles": "Roles Data",
+    "basic-info": "Basic Information",
+    "basic-roles": "You can add basic information to create a new role",
+    "new-role": "Add New Role",
+    "new-role-desc": "You can add a new role to the roles list",
+    "add-role": "Select the data you want to assign to this role",
+    "edit-role": "Edit Role",
+    "edit-role-desc": "You can view and edit the role."
+  },
+  "view": "View",
+  "delete": "Delete",
+  "edit": "Edit",
+  "loading_text": "Loading ...",
+  "contact_topic_name": "Topic",
+  "person_email": "Email",
+  "person_name": "Main traveler name",
+  "order_number": "Order invoice number",
+  "reasons": "Cancellation reasons",
+  "national_id": "Passport number",
+  "phone_number": "Phone number",
+  "seen": "Seen",
+  "closed": "Closed",
+  "controls": "Controls",
+  "heading-messages-description": "You can see all messages sent by users to receive complaints and suggestions",
+  "contact_phone": "Phone",
+  "sent_at": "Sent At",
+  "msg_body": "Message",
+  "error_msg": "Error in loading message",
+  "view_msg": "View Message",
+  "loading": "Loading...",
+  "delete_msg_title": "Delete Message",
+  "delete_msg_description": "Message data can not be retrieved when deleted",
+  "pages-keywords_crud": {
+    "actions": {
+      "title": "Add Keyword",
+      "description": "You can add page keywords through here",
+      "create": {
+        "description": "You can look up the keywords you'd like to add then click the ADD button"
+      }
+    }
+  },
+  "add": "Add",
+  "add-page-keyword": "Select keyword",
+  "keyword": "Keyword",
+  "pages": "Pages",
+  "file-loading": "Loading...",
+  "all_categories": "All categories",
+  "path": "Path",
+  "pages_crud": {
+    "h1": "Pages Content",
+    "h1_desc": "You can view and edit all pages",
+    "edit_data": "Edit Data for",
+    "edit_data_desc": "You can enter and edit data for",
+    "name_input": "Page Name",
+    "path_input": "Page Title",
+    "name_hint": "Enter page name",
+    "path_hint": "Enter page title",
+    "description_input": "Page Description",
+    "description_hint": "Enter page description",
+    "tooltip_keywords": "Add Keywords",
+    "tooltip_edit": "Edit Page",
+    "tooltip_view": "View Page Details",
+    "tooltip_sections": "View Sections"
+  },
+
+  "phone": "Phone",
+  "blocked": "Blocked",
+  "verify-email": "Verify Email",
+  "users_crud": {
+    "record": {
+      "title": "Users",
+      "description": "You can view all the users on the website"
+    },
+    "intro_image": {
+      "title": "Profile Image",
+      "description": "You can upload or change the user's avatar here"
+    },
+    "intro_info": {
+      "title": "Basic Information",
+      "description": "You can enter the user's basic data to continue and review all their information"
+    },
+    "heading_create": {
+      "title": "Add User Data",
+      "description": "You can add user data and assign a role"
+    },
+    "heading_edit": {
+      "title": "Edit User Data",
+      "description": "You can edit all the user's data"
+    },
+    "delete": {
+      "title": "Delete User",
+      "description": "You cannot recover user data after deletion"
+    },
+    "block": {
+      "title": "Block User",
+      "description": "This user will be blocked. Are you sure you want to proceed with the block now?"
+    },
+    "enable": {
+      "title": "Enable User",
+      "description": "You can re-enable the user's access to the system after unblocking."
+    },
+    "filters": {
+      "label-3": "Enable for Admins",
+      "label-2": "Enable Blocked User",
+      "label-1": "Enable Active User"
+    },
+    "input": {
+      "first-name_label": "First Name",
+      "first-name_hint": "Enter your first name",
+      "last-name_label": "Last Name",
+      "last-name_hint": "Enter your last name",
+      "email_label": "Email",
+      "email_hint": "Enter your email address",
+      "phone_label": "Phone Number",
+      "phone_hint": "Enter your phone number",
+      "lang_label": "Language",
+      "lang_hint": "Enter your language",
+      "role_label": "Role",
+      "role_hint": "Enter your role",
+      "password_label": "Password",
+      "password_hint": "Enter your password"
+    }
+  },
+  "no_role": "No role",
+
+  "identifier": "Identifier",
+
+  "sections_crud": {
+    "h1_desc": "You can see all sections and their content",
+    "edit_heading": "Edit Section",
+    "edit_description": "You can view and edit section data",
+    "edit_data_desc": "you can view and edit section data",
+    "edit_data_title": "Edit Section Data",
+    "breadcrumb_h1": "Page Content",
+    "breadcrumb_h2": "Sections",
+    "tooltips_section_items": "View Section Items",
+    "tooltips_view": "View Section's Details",
+    "tooltips_edit": "Edit Section"
+  },
+
+  "sections_dialog": {
+    "h1": "View Section",
+    "has_items_title": "There is a title for items",
+    "path": "Page Path",
+    "has_title": "There is a title",
+    "has_description": "There is a description",
+    "has_items": "There are items",
+    "has_items_description": "There is an items description",
+    "page_name": "Page Name",
+    "edit_data_desc": "Edit page section data",
+    "name_input": "Section Name",
+    "name_hint": "Enter a section name",
+    "path_input": "Section Title",
+    "path_hint": "Enter a section title",
+    "description_input": "Section Description",
+    "description_hint": "Enter a section description"
+  },
+
+  "title": "Title",
+
+  "items_crud": {
+    "breadcrumb_h3": "Section Items",
+    "breadcrumb_desc1": "You can view and edit all section items",
+    "breadcrumb_desc2": "You can view and edit all section items",
+    "intro_header": "Edit Section Items Data",
+    "intro_desc": "You can edit section items data",
+    "name_input": "Item Name",
+    "name_hint": "Enter the name of the item",
+    "path_input": "Item Title",
+    "path_hint": "Enter the title of the item",
+    "description_input": "Description",
+    "description_hint": "Enter the description of the item",
+    "tooltips_edit": "Edit Item",
+    "tooltips_view": "View Item",
+    "edit_heading": "Edit Section's Items",
+    "edit_description": "You can view and edit section's items"
+  },
+
+  "section_identifier": "Section identifier",
+  "section_title": "Section title",
+  "section_name": "Section name",
+  "view_custom_attributes": "View custom attributes",
+
+  "items_custom_attr": {
+    "breadcrumb_h4": "Custom Attributes",
+    "breadcrumb_desc1": "You can view all custom attributes",
+    "breadcrumb_desc2": "You can view and edit all custom attributes",
+    "intro_header": "Edit Custom Attributes Data",
+    "intro_desc": "You can edit custom attributes data",
+    "name_input": "Attribute Name",
+    "name_hint": "Enter the name of the attribute",
+    "value_input": "Attribute Value",
+    "value_hint": "Enter the value of the attribute",
+    "edit_heading": "Edit Custom Attributes Data",
+    "edit_description": "You can edit custom attributes data"
+  },
+  "edit-profile-heading-title": "Edit Personal Information",
+  "edit-profile-heading-description": "You can view and edit all your information",
+  "no_items": "No items available",
+  "no-category": "No Category",
+  "enter_field": "Please enter a value for this field.",
+  "settings_crud": {
+    "record": {
+      "title": "All Settings",
+      "description": "You can view all system settings."
+    }
+  },
+
+  "subscribers_crud": {
+    "description": "You can see all messages sent from users regarding subscriptions"
+  },
+  "refund_crud": {
+    "description": "You can view all messages sent by users to request order refunds"
+  },
+
+  "show_custom_attributes": "Show custom attributes",
+  "reviews_crud": {
+    "record": {
+      "title": "Customer Reviews",
+      "description": "You can view and create customer reviews",
+      "desc_edit": "You can edit customer review data"
+    },
+    "delete": {
+      "title": "Delete Customer Review",
+      "description": "You cannot recover review data after deletion"
+    },
+    "intro_form": {
+      "first": {
+        "title": "Reviewer Information",
+        "description": "You can enter customer information",
+        "desc_edit": "You can edit customer information"
+      },
+      "second": {
+        "title": "Review Information",
+        "description": "You can enter the customer's review",
+        "desc_edit": "You can edit the customer's review"
+      },
+      "third": {
+        "title": "Review Rating",
+        "description": "You can enter the customer's review rating",
+        "desc_edit": "You can edit the customer's review rating"
+      }
+    },
+    "input": {
+      "name": "Name",
+      "name_hint": "Enter the customer's name",
+      "position": "Job Title",
+      "position_hint": "Enter the customer's job title",
+      "customer_type": "Reviewer Type",
+      "custome_type_hint": "Enter the review type",
+      "review": "Review",
+      "review_hint": "Enter the customer's review",
+      "customer_review": "Customer Review Rating"
+    }
+  },
+  "customer_type": "Review Type",
+  "providers_crud": {
+    "record": {
+      "title": "Service Providers",
+      "description": "You can view all service providers on the site"
+    },
+    "intro_create": {
+      "title": "Add Service Provider",
+      "description": "You can add service provider details"
+    },
+    "intro_edit": {
+      "title": "Edit Service Provider Details",
+      "description": "You can view and edit service provider details"
+    },
+    "delete": {
+      "title": "Delete Service Provider",
+      "description": "You cannot recover deleted service provider data"
+    },
+    "input": {
+      "name_label": "Name",
+      "name_hint": "Enter the keyword name"
+    },
+    "add_main_company_info": {
+      "title": "Company Basic Information",
+      "description": "You can add the company’s basic information"
+    },
+    "add_contact_info": {
+      "title": "Company Contact Information",
+      "description": "You can add the contact’s basic information"
+    },
+    "edit_main_company_info": {
+      "title": "Company Basic Information",
+      "description": "You can edit the company’s basic information"
+    },
+    "edit_contact_info": {
+      "title": "Company Contact Information",
+      "description": "You can edit the contact’s basic information"
+    },
+    "block": {
+      "title": "Block Service Provider",
+      "description": "Warning! The service provider will be blocked now"
+    },
+    "enable": {
+      "title": "Unblock Service Provider",
+      "description": "The service provider will be restored back into the system"
+    },
+    "hints": {
+      "identifier": "Enter a unique identifier for your company",
+      "identifier_disabled": "Your company’s unique identifier",
+      "display_name": "Enter the company name",
+      "legal_name": "Enter the legal name",
+      "contact_name": "Enter the contact’s name",
+      "contact_email": "Enter the contact’s email",
+      "contact_phone": "Enter the contact’s phone number",
+      "country": "Enter your country",
+      "city": "Enter your city",
+      "registration_number": "Enter the company registration number"
+    },
+    "labels": {
+      "identifier": "Identifier",
+      "display_name": "Company Name",
+      "legal_name": "Legal Name",
+      "registration_number": "Company Registration Number",
+      "contact_name": "Contact Name",
+      "contact_email": "Contact Email",
+      "contact_phone": "Contact Phone Number",
+      "country": "Country",
+      "city": "City",
+      "logo": "Company Logo"
+    }
+  },
+  "logo": "Logo",
+  "company_logo": "Company Logo",
+  "display_name": "Company Name",
+  "contact_email": "Contact Email",
+  "contact_name":"Contact Name",
+  "company_contact_phone": "Contact Phone Number",
+  "registration_number": "Company Registration Number",
+  "image": "Image",
+  "affiliates": "Affiliates",
+  "all_affiliates":"All Affiliates",
+  "legal_name": "Affiliate Name",
+  "approved":"Approved",
+  "contact_affiliate_name": "Contact Name",
+
+  "affiliates_crud":{
+    "header_description":"You can view all affiliates in the website, and accept their data.",
+    "enable_title":"Cancel blocking affiliate",
+    "enable_description":"The affiliate will be returned again to the system",
+    "block_title": "Block Affiliate",
+    "block_description": "Attention! The affiliate will be blocked now.",
+    "view_affiliate": "View Affiliate Data",
+    "popup_title1":"Affiliate's logo and Company type",
+    "popup_title2":"Affiliate's company basic information",
+    "popup_title3": "Affiliate's company contact information",
+    "logo":"Company logo",
+    "type":"Company type",
+    "individuals":"Individuals",
+    "companies":"Companies",
+    "company_name": "Affiliate's company name",
+    "legal_name": "Company legal name",
+    "identifier": "Identifier",
+    "link": "Your company website link",
+    "reg_num": "Registration number",
+    "contact_name":"Contact name",
+    "contact_email":"Contact email",
+    "contact_phone": "Contact phone number",
+    "city": "City",
+    "country": "Country",
+    "accept": "Approve"
+    }
+}

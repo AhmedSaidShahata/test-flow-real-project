@@ -1,0 +1,144 @@
+@use '../mixins' as *;
+
+.v-textarea .v-field__input {
+  -webkit-mask-image: unset !important;
+  mask-image: unset !important;
+}
+
+.v-label {
+  opacity: unset !important;
+}
+
+.v-field {
+  height: 48px!important;
+  border: none !important;
+  border-radius: 20px !important;
+  padding: 0 5px !important;
+  background-color: #F7F3FF  !important;
+  box-shadow: none !important;
+  color: #1A1A1A;
+  overflow: hidden !important;
+}
+
+.textarea{
+  .v-field{
+    height: 128px !important;
+  }
+
+  .v-label.v-field-label{
+  z-index: 999 !important;
+  
+}
+.v-field__field {
+  position: relative !important;
+
+}
+
+.v-field__field::after {
+    content: '';
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    width: calc(100% - 10px) !important;
+    height: 28px !important;
+    background-color: #f7f3ff !important;
+    z-index: 9 !important;
+    @include langLtr {
+      right: unset !important;
+      left: 0 !important;
+    }
+  }
+}
+
+.v-input--density-default .v-field--variant-solo{
+  --v-input-control-height: 48px !important;
+  --v-field-padding-bottom: 4px !important;
+}
+
+// .v-input__control {
+//   border-bottom: 1px solid #4D4D4D !important;
+//   border-radius: 0 0 30px 30px;
+// }
+.v-input__control {
+  position: relative;
+}
+
+.v-input__control::after {
+  content: "";
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  bottom: 0px;
+  height: 1px;
+  background-color: #4D4D4D;
+}
+
+.v-field__append-inner > .v-icon, .v-field__clearable > .v-icon {
+  opacity: unset !important;
+  padding-inline-end: 20px;
+  color: #4D4D4D;
+}
+
+.white.v-sheet.theme--light {
+  .v-label {
+    opacity: unset !important;
+  }
+
+  .v-field.v-field--variant-plain .v-field__append-inner {
+    padding: 0 !important;
+  }
+
+  .v-input__details .v-messages {
+    color: red;
+    font-size: 12px;
+  }
+
+  .v-autocomplete__menu-icon {
+    margin-top: 12px;
+    color: #4D4D4D;
+  }
+}
+
+
+.v-text-field--filled>.v-input__control>.v-input__slot {
+  margin-bottom: 4px;
+}
+
+.v-text-field.v-text-field--enclosed .v-text-field__details {
+  margin-bottom: -1px;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.v-autocomplete {
+.v-field__prepend-inner>.v-icon,
+.v-field__append-inner>.v-icon,
+.v-field__clearable>.v-icon {
+  color: #4D4D4D !important;
+    position: relative !important;
+    top: 0px !important;
+    padding-inline-end: 12px;
+    opacity: 1 !important;
+    font-size: 35px;
+}
+}
+
+
+.v-field input:-webkit-autofill {
+  -webkit-text-fill-color: #1A1A1A !important;
+  box-shadow: 0 0 0 1000px #F7F3FF inset !important;
+  border-radius: 20px !important;
+  line-height: normal !important;
+  box-sizing: border-box !important;
+}

@@ -1,0 +1,40 @@
+.media-img__container {
+  position: relative;
+}
+
+.media__img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.media-img__destroy {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  cursor: pointer;
+}
+
+.media-seo__firing {
+  border: 1.5px solid transparent !important;
+  border-radius: 16px !important;
+  overflow: visible !important;
+  background:
+    linear-gradient(white, white) padding-box,
+    linear-gradient(162.45deg, #733bf7 2.18%, #e34f5b 95.61%) border-box;
+  width: 170px;
+  padding: 10px;
+  cursor: pointer;
+  
+}
+
+.media-seo__firing__title {
+  background: linear-gradient(162.45deg, #733bf7 2.18%, #e34f5b 95.61%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}

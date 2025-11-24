@@ -1,0 +1,118 @@
+@use "../mixins" as *;
+.phone {
+    .v-input__control::after {
+        left: 0px !important;
+        @include langLtr {
+            right: 0px!important;
+            left: 20px!important;
+        }
+      }
+    .v-field {
+        border-top-right-radius: 20px !important;
+        border-bottom-right-radius: 20px !important;
+        border-top-left-radius: unset !important;
+        border-bottom-left-radius: unset !important;
+
+        @include langLtr {
+            border-top-left-radius: 20px !important;
+            border-bottom-left-radius: 20px !important;
+            border-top-right-radius: unset !important;
+            border-bottom-right-radius: unset !important;
+        }
+    }
+}
+
+.country {
+    .v-input__control::after {
+        background-color: transparent;
+      }
+    margin-bottom: -1px !important;
+    input{
+        font-size: 10px !important;
+    }
+    .v-field {
+        border-top-left-radius: 20px !important;
+        border-bottom-left-radius: 20px !important;
+        border-top-right-radius: unset !important;
+        border-bottom-right-radius: unset !important;
+
+        @include langLtr {
+            border-top-right-radius: 20px !important;
+            border-bottom-right-radius: 20px !important;
+            border-top-left-radius: unset !important;
+            border-bottom-left-radius: unset !important;
+        }
+    }
+    .v-autocomplete .v-field--dirty .v-autocomplete__selection {
+        margin-inline-start: 10px !important;
+    }
+    .v-field.v-field--appended {
+        --v-field-padding-end: -2px !important;
+    }
+    .v-autocomplete .v-field__prepend-inner > .v-icon{
+          color: white !important;
+        }
+    .v-field__overlay {
+        background-color: #9368F9;
+        ;
+    }
+
+    .v-autocomplete__selection {
+        width: 90px !important;
+        z-index: 100 !important;
+    }
+
+    .v-autocomplete__menu-icon {
+        display: none !important;
+    }
+
+    &.v-input--plain-underlined.v-text-field .v-input__details {
+        display: none;
+    }
+
+    .v-list {
+        padding: 0 !important;
+        background: none !important;
+        overflow: hidden !important;
+        width: 80px;
+
+    }
+
+    .v-field__field {
+        width: 80px !important;
+    }
+
+    .v-autocomplete .v-field input {
+        max-width: 1px !important;
+    }
+    .v-field__input input:focus {
+        height: 25px !important;
+        color: white !important;
+        margin-top: -16px !important;
+    }
+
+    .v-field__input {
+        opacity: unset !important;
+    }
+
+    .code {
+        // .v-list-item-title {
+            font-size: 14px !important;
+        // }
+
+    }
+    .v-input--density-default .v-field--variant-plain{
+        --v-field-padding-top: -8px !important;
+    }
+}
+.country.v-autocomplete .v-field__prepend-inner .v-icon {
+    color: white !important;
+    font-size: 28px!important;
+    padding-inline-end: 0px!important;
+    margin-inline-start: -8px;
+    padding-top: 10px !important;
+  }
+
+.v-input--density-default .v-field--variant-plain{
+    --v-field-padding-top: -8px !important;
+}

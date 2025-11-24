@@ -1,0 +1,88 @@
+@use '../mixins' as *;
+
+.header {
+  width: 100% !important;
+  margin: 0 !important;
+
+  @include desktop {
+    width: calc(100% - 261px) !important;
+  }
+
+  @include langLtr {
+    margin-left: -10.5px !important;
+
+    @include mobile {
+      margin: 0px !important;
+    }
+  }
+
+  .user-name {
+    font-weight: 600;
+    font-size: 16px;
+
+    @include minMax(0px, 396px) {
+      font-size: 12px;
+    }
+  }
+
+  .user-role {
+    font-weight: 400;
+    font-size: 16px;
+
+    @include minMax(0px, 396px) {
+      font-size: 12px;
+    }
+  }
+
+  .profile-image {
+    position: relative;
+
+    .v-avatar {
+      width: 68px !important;
+      height: 58px !important;
+      border: 2px solid #fff !important;
+      border-radius: 13px !important;
+
+      // @include minMax(0px, 396px) {
+      //   width: 38px !important;
+      //   height: 38px !important;
+      // }
+    }
+
+    .edit-icon {
+      position: absolute;
+
+      bottom: -9px;
+      left: -2px;
+    }
+  }
+
+  .profile-image.v-btn.v-avatar {
+    position: relative;
+    width: 68px !important;
+    height: 58px !important;
+    border: 2px solid #fff !important;
+    border-radius: 13px !important;
+    overflow: visible;
+
+    .edit-icon {
+      position: absolute;
+
+      bottom: -9px;
+      left: -2.5px;
+    }
+  }
+
+  .notify-icon {
+    height: 30px;
+    background-color: transparent !important;
+  }
+}
+
+.v-locale--is-ltr {
+  .header {
+    @include minMax(0px, 1281px) {
+      margin: 0px !important;
+    }
+  }
+}

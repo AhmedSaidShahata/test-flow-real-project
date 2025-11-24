@@ -1,0 +1,49 @@
+* {
+  font-family: 'Tajwal';
+}
+
+@for $i from 8 through 40 {
+  .font-size-#{$i} {
+    font-size: #{$i}px !important;
+  }
+}
+
+// @font-face {
+//   font-family: 'Inter-Italic';
+//   src: url(./Inter/Inter-Italic-VariableFont_opsz\,wght.ttf);
+// }
+// @font-face {
+//   font-family: 'Inter';
+//   src: url(./Inter/Inter-VariableFont_opsz\,wght.ttf);
+// }
+
+
+.font-din {
+  font-family: 'DINArabic-Black-Black', sans-serif, Arial, Helvetica !important;
+}
+.font-inter {
+  font-family: 'Inter', sans-serif, Arial, Helvetica !important;
+}
+
+.font-flag {
+    font-family: "NotoColorEmoji", sans-serif, Arial, Helvetica;
+    font-style: normal;
+    font-size: 24px !important;
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
+    .font-flag {
+        font-family: initial !important;
+        font-size: initial !important;
+        font-size: 24px !important;
+        position: relative;
+        top: 3px;
+    }
+}
+
+@-moz-document url-prefix() {
+    .font-flag {
+        font-family: initial !important;
+        font-style: initial;
+    }
+}

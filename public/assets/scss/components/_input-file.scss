@@ -1,0 +1,20 @@
+@use '../mixins' as *;
+
+.input-file {
+  border: 2px solid var(--primary);
+  border-radius: 15px;
+  width: 170px;
+
+  &__upload {
+    top: 0;
+    left: 0;
+  }
+}
+.providers-file-input__wrapper {
+  @include langLtr{
+    @include md-and-up{
+
+      margin-inline-start: 16px !important;
+    }
+  }
+}

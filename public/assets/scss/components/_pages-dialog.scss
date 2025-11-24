@@ -1,0 +1,15 @@
+@use '../mixins' as *;
+
+.dialog__section{
+  width: 100%;
+  padding : 0 10px;
+  margin: 15px 0px;
+
+  @include tablet{
+    width: 50%;
+  }
+
+  @include desktop{
+    width: 20% !important;
+  }
+}
