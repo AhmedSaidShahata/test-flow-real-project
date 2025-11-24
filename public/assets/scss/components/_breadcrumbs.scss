@@ -1,0 +1,31 @@
+@use "../mixins" as *;
+
+.breadcrumb-clickable {
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.breadcrumb-enabled {
+  color: black !important;
+}
+
+.breadcrumb-disabled {
+  color: #9368F9 !important;
+  opacity: unset !important;
+}
+
+.breadcrumb-clickable:hover {
+  text-decoration: underline;
+}
+
+/* RTL support for breadcrumbs */
+.v-locale--is-rtl .v-breadcrumbs {
+  direction: rtl;
+}
+
+.bradcrumb_font{
+  font-size: 14px !important;
+@include desktop{
+                    font-size: 20px !important;
+            }
+}

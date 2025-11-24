@@ -1,0 +1,17 @@
+$tooltip-background-color: #ffffff; 
+$tooltip-overflow-wrap: break-word;
+$tooltip-padding: 5px;
+$tooltip-text-color: #000000;
+$tooltip-transition-enter-duration: 150ms;
+$tooltip-transition-leave-duration: 75ms;
+
+.v-tooltip .v-overlay__content.custom-tooltip {
+  background-color: $tooltip-background-color !important;
+  border: 1px solid rgba(147, 104, 249, 1) !important;
+  border-radius: 8px !important;
+  overflow-wrap: $tooltip-overflow-wrap !important;
+  padding: $tooltip-padding !important;
+  color: $tooltip-text-color !important;
+  transition: opacity $tooltip-transition-enter-duration ease,
+              visibility $tooltip-transition-leave-duration ease !important;
+}

@@ -1,0 +1,88 @@
+@use '../mixins' as *;
+
+.has_error {
+  .ql-container.ql-snow {
+    border-color: #b00020 !important;
+  }
+
+  .ql-toolbar.ql-snow {
+    border-color: #b00020 !important;
+  }
+}
+
+.text-danger {
+  color: #b00020 !important;
+}
+
+
+.ql-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-options {
+  border-color: #ccc;
+  background: #a8a8a8 !important;
+}
+
+.quillWrapper {
+  background-color: #a8a8a8 !important
+}
+
+.ql-snow {
+  .ql-formats .ql-picker-label {
+    text-align: left !important;
+  }
+
+}
+
+.ql-snow .ql-picker.ql-header .ql-picker-item {
+  text-align: left;
+
+  &::before {
+    display: none !important;
+  }
+}
+
+
+
+
+.ql-editor ol li:not(.ql-direction-rtl),
+.ql-editor ul li:not(.ql-direction-rtl) {
+  padding-left: 0 !important;
+}
+
+.ql-editor ol,
+.ql-editor ul {
+  padding-left: 1em !important;
+}
+
+html:lang(en) {
+  .ql-editor ul {
+    padding-left: 1em !important;
+  }
+}
+
+
+
+html:lang(ar) {
+  .ql-editor li:not(.ql-direction-rtl):before {
+    margin-left: -7px !important;
+    margin-right: .3em !important;
+
+  }
+}
+
+
+html:lang(en) {
+  .ql-editor li:not(.ql-direction-rtl):before {
+    margin-left: -0.9em !important;
+    margin-right: -7px !important;
+      text-align: left !important;
+  }
+}
+
+
+.quillWrapper {
+  @include langRtl {
+    .ql-editor {
+      direction: rtl !important;
+      // text-align: right !important;
+    }
+  }
+}

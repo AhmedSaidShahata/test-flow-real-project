@@ -1,0 +1,34 @@
+/* Default track (unchecked) */
+.v-switch__track {
+  background: rgba(29, 27, 32, 0.12)!important;
+  border: 1px solid #1D1B201F;
+  opacity: unset !important;
+}
+
+/* Active track gradient */
+.v-selection-control--dirty .v-switch__track {
+ background: linear-gradient(129.88deg, #9368F9 5.7%, #E6626D 98.5%) !important;
+  border: unset;
+  opacity: unset !important;
+}
+.label-toggle .v-switch__track{
+  height: 23px !important;
+  min-width: 43px !important;
+}
+
+.label-toggle .v-switch__thumb{
+  height: 17px !important;
+  width: 17px !important;
+}
+.v-switch__thumb {
+    transform: unset !important;
+}
+
+.switch-toggle .v-input__control::after {
+  content: "";
+  position: absolute;
+  left: unset !important;
+  right: unset !important;
+  bottom: unset !important ;
+  height: unset !important;
+}

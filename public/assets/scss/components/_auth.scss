@@ -1,0 +1,20 @@
+@use '../mixins' as *;
+
+.auth {
+    height: 102vh;
+    background-color: var(--primary);
+    background-size: 100% 100%;
+
+    &__container {
+
+        &__card {
+            border-radius: 30px;
+            min-width: 450px ;
+            background-color: rgba(255, 255, 255, 0.52);
+            border: 2px solid rgba(255, 255, 255, 0.52);
+            @include mobile{
+                    min-width: 100% !important;
+            }
+        }
+    }
+}
