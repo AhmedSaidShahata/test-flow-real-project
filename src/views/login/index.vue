@@ -4,9 +4,11 @@
     style="background-image: url(/assets/images/bg-login.png)"
   >
     <div class="auth__container">
+
       <div class="text-center mb-2">
         <Image width="120px" name="avatar-login.png" />
       </div>
+      
       <div class="auth__container__card px-14 pt-4 pb-3">
         <Form @submit="handleSubmit" class="mt-4">
           <div class="mb-4">
