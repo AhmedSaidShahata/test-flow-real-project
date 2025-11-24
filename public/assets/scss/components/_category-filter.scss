@@ -1,0 +1,55 @@
+@use "../mixins" as *;
+
+.blogs-content{
+    .blogs-content--filter{
+        margin: 0 !important;
+    }
+}
+.button--custom {
+//   height: 40px;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+  width: 100%;
+  position: relative !important;
+  border: 1px solid transparent !important;
+  border-radius: 16px !important;
+  background: linear-gradient(#ffffff, #ffffff) padding-box,
+    linear-gradient(162.45deg, #9368f9 2.18%, #e6626d 95.61%) border-box !important;
+
+  &.v-btn {
+    background-color: transparent !important;
+    background-image: linear-gradient(#ffffff, #ffffff) !important;
+    background-clip: padding-box !important;
+    box-shadow: none !important;
+
+    &::before {
+      display: none !important;
+    }
+
+    &::after {
+      display: none !important;
+    }
+  }
+
+  .button__text--custom {
+    background: linear-gradient(162.45deg,
+        #9368f9 2.18%,
+        #e6626d 95.61%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background-clip: text !important;
+    font-weight: bold !important;
+
+    @include screen(320px) {
+      font-size: 1rem !important;
+    }
+  }
+
+  &.v-btn--variant-elevated,
+  &.v-btn--variant-flat {
+    background: linear-gradient(#ffffff, #ffffff) padding-box,
+      linear-gradient(162.45deg, #9368f9 2.18%, #e6626d 95.61%) border-box !important;
+    border: 1px solid transparent !important;
+  }
+}

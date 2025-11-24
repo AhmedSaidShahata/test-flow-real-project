@@ -1,0 +1,80 @@
+@use '../mixins' as *;
+
+.v-table>.v-table__wrapper>table {
+  @include mobile {
+    width: 656px !important;
+  }
+
+}
+
+
+.v-table>.v-table__wrapper {
+  overflow-y: hidden !important;
+}
+
+
+.v-table.users-table>.v-table__wrapper >table{
+  @include screen(1100px) {
+    width: 900px !important;
+  }
+}
+
+
+.v-data-table {
+
+  thead {
+    th {
+      font-weight: bold !important;
+      padding-bottom: 21px !important;
+      padding-top: 33px !important;
+    }
+  }
+
+  td {
+    background: var(--primary-25, rgba(247, 243, 255, 1));
+
+  }
+
+}
+
+.v-table>.v-table__wrapper>table>tbody>tr>th,
+.v-table>.v-table__wrapper>table>thead>tr>th,
+.v-table>.v-table__wrapper>table>tfoot>tr>th {
+  border-bottom: unset !important;
+}
+
+.v-table .v-table__wrapper>table>tbody>tr>td,
+.v-table .v-table__wrapper>table>tbody>tr>th {
+  border-bottom: 8px solid #fff !important;
+  border-top: 8px solid #fff !important;
+}
+
+.v-table .v-table__wrapper>table>tbody>tr>td:first-of-type {
+  @include langRtl {
+    border-top-right-radius: 31px !important;
+    border-bottom-right-radius: 31px !important;
+  }
+
+  @include langLtr {
+    border-top-left-radius: 31px !important;
+    border-bottom-left-radius: 31px !important;
+  }
+}
+
+.v-table .v-table__wrapper>table>tbody>tr>td:last-of-type {
+  @include langRtl {
+    border-top-left-radius: 31px !important;
+    border-bottom-left-radius: 31px !important;
+  }
+
+  @include langLtr {
+    border-top-right-radius: 31px !important;
+    border-bottom-right-radius: 31px !important;
+  }
+}
+
+
+.v-table>.v-table__wrapper>table>tbody>tr>td {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
